@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F8F8F8;
+    font-family: 'Poppins', sans-serif;
+}
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+/* headers Start */
+header{
+    height: 108px;
+    width: 100%;
+    background-color:rgb(243, 243, 243);
+    box-shadow: 2px 2px 1px rgba(98, 98, 99, 0.2);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+header .navLink{
+    height: 108px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header .logo{
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+header .search{
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap:20px;
+    height: 50px;
+    width: 500px;
+    min-width: 140px;
+    background-color: white;
+}
+header .search i {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+header .search h5{
+    color: #BDBDBD;
+    font-size: 1rem;
+}
+header .icon-text{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        cursor: pointer;
+}
+header .icon-text i {
+   font-size: 1.3rem;
+}
+/* headers End */
+
+.card-product{
+    padding: 10px;
+    height: 400px;
+    min-width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    margin: 10px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.card-product .text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.product-p{
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

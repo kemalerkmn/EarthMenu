@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f264ba3b75.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Dünya Kitchen</title>
+</head>
+<body>
+    <!-- header start -->
+    <header class="container-fluid">
+        <a class="logo active" href="#">LOGO</a>
+        <div class="navLink navbar">
+            <div class="icon-text ">
+                <!-- mobile responsive -->
+                <a class="d-none d-sm-block active" href="#">Home</a> 
+                <i class="fa-solid fa-house-chimney active"></i>
+            </div>
+            <div class="d-none d-lg-block ">
+                <div class="search input-group">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control me-2 border-0 " type="search" placeholder="Search  in kitchen" aria-label="Search in kitchen">
+                </div>
+            </div>
+            <!-- mobile responsive -->
+            <div class="d-md-block d-lg-none">
+                <div class="icon-text">
+                    <a class="d-none d-sm-block" href="#">Search</a>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="icon-text">
+                <a class="d-none d-sm-block" href="#">Favorite</a>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="icon-text">
+                <a class="d-none d-sm-block" href="#">Setting</a>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+        
+    </header>
+    <!-- header end -->
+    <main class="container">
+    <section>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content" id="2">
+                            <div class="card-image" id="2">
+                                <img src="images/food.png" alt="" class="card-img" id="2">
+                            </div>
+                        </div>
+                        <div class="card-content" id="2">
+                            <h2 class="name" id="2">Tüm Çeşitler</h2>
+                            <p class="description" id="2">Lorem Ipsum has been the industry </p>
+                        </div>
+                    </div>
+                  
+                    <div class="card swiper-slide">
+                        <div class="image-content" id="1">
+                            <div class="card-image" id="1">
+                                <img src="images/hamburger/hamburger.png" alt="" class="card-img" id="1">
+                            </div>
+                        </div>
+                        <div class="card-content" id="1">
+                            <h2 class="name" id="1">Hamburger Çeşitleri</h2>
+                            <p class="description" id="1">Lorem Ipsum has been the industry </p>
+                        </div>
+                    </div><div class="card swiper-slide">
+                        <div class="image-content" id="0">
+                            <div class="card-image" id="0">
+                                <img id="0" src="images/pizza/biber-pissa.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content" id="0">
+                            <h2 class="name" id="0">Pizza Çeşitleri</h2>
+                            <p class="description" id="0">Lorem Ipsum has been the industry </p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content" id="3">
+                            <div class="card-image" id="3">
+                                <img src="images/makarna/spagetti.jpg" alt="" class="card-img" id="3">
+                            </div>
+                        </div>
+                        <div class="card-content" id="3">
+                            <h2 class="name" id="3">Makarna Çeşitleri</h2>
+                            <p class="description" id="3">Lorem Ipsum has been the industry </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section >
+        <div class="row product-p" id="product">
+            
+        </div>
+    </section>
+    </main>    
+</body>
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- Bootstap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+<script src="js/product.js"></script>
+<script src="js/app.js"></script>
+</html>
